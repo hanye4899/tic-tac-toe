@@ -1,18 +1,18 @@
 # tic-tac-toe
 # Code
-X_Win = False
-O_Win = False
-entered_list = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-matrix = [[entered_list[0],entered_list[1],entered_list[2]],[entered_list[3],entered_list[4],entered_list[5]],[entered_list[6],entered_list[7],entered_list[8]]]
-play_sequence = ["X", "O", "X", "O", "X", "O", "X", "O", "X"]
+    X_Win = False
+    O_Win = False
+    entered_list = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    matrix = [[entered_list[0],entered_list[1],entered_list[2]],[entered_list[3],entered_list[4],entered_list[5]],[entered_list[6],entered_list[7],entered_list[8]]]
+    play_sequence = ["X", "O", "X", "O", "X", "O", "X", "O", "X"]
 
-print("---------")
-print("| " + matrix[0][0] + " " + matrix[0][1] + " " + matrix[0][2] + " |")
-print("| " + matrix[1][0] + " " + matrix[1][1] + " " + matrix[1][2] + " |")
-print("| " + matrix[2][0] + " " + matrix[2][1] + " " + matrix[2][2] + " |")
-print("---------")
+    print("---------")
+    print("| " + matrix[0][0] + " " + matrix[0][1] + " " + matrix[0][2] + " |")
+    print("| " + matrix[1][0] + " " + matrix[1][1] + " " + matrix[1][2] + " |")
+    print("| " + matrix[2][0] + " " + matrix[2][1] + " " + matrix[2][2] + " |")
+    print("---------")
 
-while not X_Win and not O_Win:
+    while not X_Win and not O_Win:
 # Coordinates
     entered_coord = input("Enter the Coordinates: > ")
     # Error 1: Entered non numbers
